@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "permissions": ["debugger", "proxy", "declarativeNetRequest"],
+  "name": "Turnstile Patcher",
+  "version": "1",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_start"
+    }
+  ]
+}

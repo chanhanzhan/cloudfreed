@@ -1,0 +1,31 @@
+{
+  "name": "cloudfreed",
+  "contributors": [
+    "Akmal",
+    "TheRealStingo"
+  ],
+  "type": "module",
+  "version": "3.1.1",
+  "description": "CloudFreed, an automated cloudflare solver.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Akmal-CloudFreed/CloudFreed---CloudFlare-bypass.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akmal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "better-queue": "^3.8.12",
+    "chrome-remote-interface": "^0.33.2",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "http-proxy-agent": "^7.0.2",
+    "https-proxy-agent": "^7.0.5",
+    "socks-proxy-agent": "^8.0.4",
+    "yargs": "^17.7.2"
+  }
+}

@@ -1,0 +1,50 @@
+cloudfreed-main
+├── .gitattributes
+├── .gitignore
+├── .vscode/
+│   └── launch.json
+├── api-example.js
+├── api.js
+├── example.js
+├── extension/
+│   ├── background.js
+│   ├── manifest.json
+│   └── script.js
+├── html/
+│   ├── CloudflareChallenge.html
+│   ├── CloudflareInvisible.html
+│   ├── CloudFreed.html
+│   ├── CloudFreed.png
+│   ├── RecaptchaInvisible.html
+│   ├── Thumbs.db
+│   └── TurnstileChallenge.html
+├── lib/
+│   ├── CheckDebuggingEndpoint.js
+│   ├── CloudFreed.js
+│   ├── delay.js
+│   ├── DeleteTempUserDataFolders.js
+│   ├── emuRequest.js
+│   ├── FindAvailablePort.js
+│   ├── fs.js
+│   ├── getContent.js
+│   ├── GetDefaultChromePath.js
+│   ├── GetHomeDirectory.js
+│   ├── KillProcess.js
+│   ├── makeRequest.js
+│   ├── Proxy.js
+│   ├── ProxyAgent.js
+│   ├── Server.js
+│   ├── Solve.js
+│   └── ValidateURL.js
+├── package-lock.json
+├── package.json
+├── Project_directory_generator.exe
+├── project_structure.txt
+└── README.md
+
+说明：
+1. ├── 表示非最后项
+2. └── 表示最后一项
+3. │   表示垂直连接线
+4. 目录后面加 / 标识
+5. 本文件由目录结构生成器自动生成

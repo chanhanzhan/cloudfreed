@@ -62,8 +62,6 @@ if [ -z "$CLIENT_KEY" ]; then
     exit 1
 fi
 
-echo "CLIENT_KEY: $CLIENT_KEY"  # 增加打印 CLIENT_KEY
-
 # 设置 maxTasks 和 timeout，如果环境变量未设置则使用默认值
 MAX_TASKS=${MAX_TASKS:-1}
 TIMEOUT=${TIMEOUT:-30}
